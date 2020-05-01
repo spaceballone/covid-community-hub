@@ -25,7 +25,7 @@ library(scales)
 library(jsonlite)
 library(gt)
 
-source("data_gen.R")
+#source("data_gen.R")
 source("resource.R")
 source("map.R")
 source("getDataLocal.R")

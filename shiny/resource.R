@@ -30,7 +30,7 @@ resourceUI <- function(id) {
 
 resource <- function(input, output, session) {
   
-  catalog_url <- "http://api.us.socrata.com/api/catalog/v1?q=COVID"
+  catalog_url <- "http://api.us.socrata.com/api/catalog/v1?q=COVID&limit=9999"
 
   df_response <- fromJSON(catalog_url)
   
